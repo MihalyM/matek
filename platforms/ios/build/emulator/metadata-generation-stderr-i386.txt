@@ -3,9 +3,11 @@ Target: i386-apple-darwin15.6.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/TKLiveSync/include" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar/SSSnackbar.framework/Headers" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/TKLiveSync/include" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator" "-F/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 ignoring nonexistent directory "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar"
+ignoring nonexistent directory "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar/SSSnackbar.framework/Headers"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
 #include "..." search starts here:
 #include <...> search starts here:
@@ -25,10 +27,12 @@ Target: i386-apple-darwin15.6.0
 Thread model: posix
 InstalledDir: 
 clang Invocation:
- "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/TKLiveSync/include" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+ "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "301.1" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/4.0.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar/SSSnackbar.framework/Headers" "-D" "__NATIVESCRIPT_METADATA_GENERATOR=1" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal" "-I" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/TKLiveSync/include" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator" "-F/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios" "-F/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
 
 clang -cc1 version 4.0.0 based upon LLVM 4.0.0 default target x86_64-apple-darwin15.6.0
 ignoring nonexistent directory "/Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar"
+ignoring nonexistent directory "/Users/macbookproretina15/Library/Developer/Xcode/DerivedData/matek-djfdqvwzfcfwiudnewvbywradhbj/Build/Products/Debug-iphonesimulator/SSSnackbar/SSSnackbar.framework/Headers"
 ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
 #include "..." search starts here:
 #include <...> search starts here:
@@ -43,19 +47,19 @@ ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platf
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
 End of search list.
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:77:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) TKRange * __nonnull zoomRange;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKChartAxis.h:182:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:215:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) UIColor *popoverColor;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarMonthPresenterStyle.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:229:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsView.h:8:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:43:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
@@ -66,38 +70,38 @@ In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms
 @property (nonatomic, nullable) UIColor * separatorColor;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKCalendarDayViewEventsViewStyle.h:58:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:253:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataSource.h:12:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:84:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property(nonatomic, nonnull) TKAutoCompleteCoverView *cover;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKAutoCompleteTextView.h:84:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:284:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSString *groupName;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityProperty.h:96:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:288:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic, nullable) id value;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormEditor.h:83:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:311:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) id<TKLayout> layout;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKEntityPropertyGroupEditorsView.h:19:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:318:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic, nonnull) TKAutoCompleteTextView *autoCompleteView;
 ^
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKDataFormAutoCompleteInlineEditor.h:22:1: warning: default property attribute 'assign' not appropriate for non-GC object [-Wobjc-property-no-attribute]
-In file included from umbrella.h:693:
+In file included from umbrella.h:695:
 In file included from /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TelerikUI.h:373:
 /Users/macbookproretina15/Documents/GitHub/matek/platforms/ios/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *row;

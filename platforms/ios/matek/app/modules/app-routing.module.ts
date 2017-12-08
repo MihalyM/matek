@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { TrigonometriaComponent } from './subjects/trigonometria/trigonometria.component';
 import { PitagoraszTetelComponent } from './subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component';
@@ -17,6 +18,7 @@ import { PitagoraszTetelComponent } from './subjects/trigonometria/pitagorasz-te
       { path: 'about', component: AboutComponent },
       { path: 'contact', component: ContactComponent },
       { path: 'login', component: LoginComponent },
+      { path: "register", component: RegisterComponent },
       { path: 'subjects', component: SubjectsComponent },
       { path: 'subjects/trigonometria', component: TrigonometriaComponent },
       { path: 'subjects/trigonometria/pitagorasz-tetel', component: PitagoraszTetelComponent }

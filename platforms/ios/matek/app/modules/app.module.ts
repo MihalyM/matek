@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from "./register/register.component";
 import { ContactComponent } from './contact/contact.component';
 import { SubjectsComponent } from './subjects/subjects.component';
 import { TrigonometriaComponent } from './subjects/trigonometria/trigonometria.component';
@@ -24,6 +25,7 @@ import { SharedModule } from './shared';
     HomeComponent,
     AboutComponent,
     LoginComponent,
+    RegisterComponent,
     ContactComponent,
     SubjectsComponent,
     TrigonometriaComponent,

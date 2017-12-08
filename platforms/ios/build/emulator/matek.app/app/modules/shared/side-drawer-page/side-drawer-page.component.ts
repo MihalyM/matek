@@ -37,8 +37,10 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
    */
   navMenu: any[] = [
     { name: 'Home', commands: ['/'] },
-    { name: 'About', commands: ['/about'] },
-    { name: 'Contact', commands: ['/contact'] }
+    { name: 'Az alkalmazásról', commands: ['/about'] },
+    { name: 'Kapcsolat', commands: ['/contact'] },
+    { name: 'Bejelentkezés', commands: ['/login'] },
+    { name: 'Témakör', commands: ['/subjects'] }
   ];
 
   private drawer: SideDrawerType;

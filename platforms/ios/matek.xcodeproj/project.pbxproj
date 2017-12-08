@@ -5,17 +5,19 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		3D23EAB7A078477EA6A1DEE6 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */; };
+		426C7D97E3C849559E699A13 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4673A083E348009EE4B17B /* TelerikUI.framework */; };
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
+		8FF361D54ED64560BC155833 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD656BCEED9A45B5B7725900 /* build.xcconfig */; };
+		8FF40DBAA44D4794938F5E55 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4673A083E348009EE4B17B /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
 		DAE51B1162AD4AA589C273EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE04596D590C48D3BB820410 /* Assets.xcassets */; };
-		FC5B0D6FD28246B590C94801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F437F7A986648C9A33119D0 /* LaunchScreen.storyboard */; };
-		8FF361D54ED64560BC155833 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = AD656BCEED9A45B5B7725900 /* build.xcconfig */; };
-		426C7D97E3C849559E699A13 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4673A083E348009EE4B17B /* TelerikUI.framework */; };
-		8FF40DBAA44D4794938F5E55 /* TelerikUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4673A083E348009EE4B17B /* TelerikUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D23EAB7A078477EA6A1DEE6 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */; };
 		E7988DF55B60493EAAF904F8 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EDC531AF0F38214A7B314B5C /* Pods_matek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F75D5C549D49CF32D1C8ED6 /* Pods_matek.framework */; };
+		FC5B0D6FD28246B590C94801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F437F7A986648C9A33119D0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,21 +36,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0F75D5C549D49CF32D1C8ED6 /* Pods_matek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_matek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F437F7A986648C9A33119D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = matek/Resources/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		858B832E18CA111C00AB12DE /* matek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858B833918CA111C00AB12DE /* matek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "matek-Info.plist"; sourceTree = "<group>"; };
 		858B833B18CA111C00AB12DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		858B833F18CA111C00AB12DE /* matek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "matek-Prefix.pch"; sourceTree = "<group>"; };
 		858B843318CA22B800AB12DE /* matek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = matek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D4673A083E348009EE4B17B /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
+		AD656BCEED9A45B5B7725900 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = build.xcconfig; path = matek/Resources/build.xcconfig; sourceTree = "<group>"; };
+		BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
 		CD45EE7A18DC2D5800FB50C0 /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; path = app; sourceTree = "<group>"; };
 		CD62955C1BB2678900AE3A93 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = internal/main.m; sourceTree = SOURCE_ROOT; };
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		FE04596D590C48D3BB820410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = Assets.xcassets; path = "matek/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = 4; };
-		7F437F7A986648C9A33119D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = LaunchScreen.storyboard; path = "matek/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = 4; };
-		AD656BCEED9A45B5B7725900 /* build.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = build.xcconfig; path = "matek/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; };
-		8D4673A083E348009EE4B17B /* TelerikUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TelerikUI.framework; path = "$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios/TelerikUI.framework"; sourceTree = "<group>"; };
-		BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; };
+		FE04596D590C48D3BB820410 /* Assets.xcassets */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; name = Assets.xcassets; path = matek/Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 			files = (
 				426C7D97E3C849559E699A13 /* TelerikUI.framework in Frameworks */,
 				3D23EAB7A078477EA6A1DEE6 /* TNSWidgets.framework in Frameworks */,
+				EDC531AF0F38214A7B314B5C /* Pods_matek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +75,7 @@
 				858B833718CA111C00AB12DE /* matek */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
+				9B984BC5558B1B076048E839 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +93,7 @@
 			children = (
 				8D4673A083E348009EE4B17B /* TelerikUI.framework */,
 				BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */,
+				0F75D5C549D49CF32D1C8ED6 /* Pods_matek.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,6 +121,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9B984BC5558B1B076048E839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +145,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 858B843018CA22B800AB12DE /* Build configuration list for PBXNativeTarget "matek" */;
 			buildPhases = (
+				EEB2E9CFDC666523A9E240EC /* [CP] Check Pods Manifest.lock */,
 				C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */,
 				858B83F218CA22B800AB12DE /* Sources */,
 				CD62955B1BB2651D00AE3A93 /* NativeScript PreLink */,
@@ -139,6 +153,8 @@
 				858B842C18CA22B800AB12DE /* Resources */,
 				85F5BDFC1A9363BE006B9701 /* Embed Frameworks */,
 				CD3EAD351B05FF060042DBFC /* NativeScript PostBuild */,
+				B72004CF80D4B51389D99498 /* [CP] Embed Pods Frameworks */,
+				887F903E54AF57BA70BDAD1B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +208,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		887F903E54AF57BA70BDAD1B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-matek/Pods-matek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72004CF80D4B51389D99498 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-matek/Pods-matek-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SSSnackbar/SSSnackbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSSnackbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-matek/Pods-matek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C97FD7AC1ADE5369004DB2A4 /* NativeScript PreBuild */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,6 +284,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$SRCROOT/internal/nativescript-pre-link\"";
+			showEnvVarsInLog = 0;
+		};
+		EEB2E9CFDC666523A9E240EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-matek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -342,6 +409,11 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "matek/matek-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -353,11 +425,6 @@
 				PRODUCT_NAME = matek;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
-					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
-				);
 			};
 			name = Debug;
 		};
@@ -369,6 +436,11 @@
 				CLANG_ENABLE_MODULES = NO;
 				CLANG_MODULES_AUTOLINK = NO;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
+					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "matek/matek-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/matek/matek-Info.plist";
@@ -376,11 +448,6 @@
 				PRODUCT_NAME = matek;
 				VALID_ARCHS = "armv7 arm64";
 				WRAPPER_EXTENSION = app;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../../node_modules/nativescript-telerik-ui/platforms/ios\"",
-					"\"$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios\"",
-				);
 			};
 			name = Release;
 		};
