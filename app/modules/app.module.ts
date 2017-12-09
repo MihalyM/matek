@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
+import { NativeScriptFormsModule } from "nativescript-angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +18,7 @@ import { SharedModule } from './shared';
 @NgModule({
   imports: [
     NativeScriptModule,
+    NativeScriptFormsModule,
     AppRoutingModule,
     SharedModule
   ],
