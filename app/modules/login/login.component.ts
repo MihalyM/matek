@@ -25,7 +25,6 @@ export class LoginComponent implements OnInit {
     }
 
     public login() {
-        console.log(JSON.stringify(this.input));
         if(this.input.email && this.input.password) {
             let account = JSON.parse(ApplicationSettings.getString("account", "{}"));
             if(this.input.email == account.email && this.input.password == account.password) {

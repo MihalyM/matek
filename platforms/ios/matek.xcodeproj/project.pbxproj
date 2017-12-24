@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		3D23EAB7A078477EA6A1DEE6 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1749D8C84D4194B0ECD699 /* TNSWidgets.framework */; };
 		426C7D97E3C849559E699A13 /* TelerikUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4673A083E348009EE4B17B /* TelerikUI.framework */; };

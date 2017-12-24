@@ -1,0 +1,15 @@
+.complete-low {
+    color: #c00;
+}
+
+.complete-mid {
+    color: #f90;
+}
+
+.complete-high {
+    color: #ff0;
+}
+
+.complete-total {
+    color: #0a0;
+}

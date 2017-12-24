@@ -40,7 +40,8 @@ export class SideDrawerPageComponent implements AfterViewInit, OnDestroy {
     { name: 'Az alkalmazásról', commands: ['/about'] },
     { name: 'Kapcsolat', commands: ['/contact'] },
     { name: 'Bejelentkezés', commands: ['/login'] },
-    { name: 'Témakör', commands: ['/subjects'] }
+    { name: 'Témakör', commands: ['/subjects'] },
+    { name: 'Státusz', commands: ['/progress'] }
   ];
 
   private drawer: SideDrawerType;
