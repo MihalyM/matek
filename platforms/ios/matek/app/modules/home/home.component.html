@@ -9,31 +9,6 @@
         text="Szia {{account.firstname}}!"
         textWrap="true">
       </Label>
-      <Label
-        class="h3 page-text"
-        text="A következő a helyzet:">
-      </Label>
-      <ListView [items]="account.progress.subjects">
-        <ng-template let-item="item">
-          <StackLayout
-            class="list-item"
-            [nsRouterLink]="item.url">
-            <Label text="{{item.title}}"
-              [ngClass]="{
-                'complete-low': item.completed / item.total < 0.25,
-                'complete-mid': item.completed / item.total > 0.25 && item.completed / item.total < 0.75,
-                'complete-high': item.completed / item.total > 0.75 && item.completed / item.total < 1,
-                'complete-total': item.completed / item.total === 1
-              }">
-            </Label>
-            <Label text="{{item.completed}}/{{item.total}}"></Label>
-            <Progress
-              value="{{item.completed / item.total * 100}}"
-              maxValue="100"
-              class="m-t-10"></Progress>
-          </StackLayout>
-        </ng-template>
-      </ListView>
     </GridLayout>
   </side-drawer-page>
 </DockLayout>

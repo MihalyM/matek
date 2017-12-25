@@ -3,6 +3,8 @@ import { RouterExtensions } from "nativescript-angular/router";
 import { SnackBar } from "nativescript-snackbar";
 import * as ApplicationSettings from "application-settings";
 
+// https://www.thepolyglotdeveloper.com/2017/07/simple-login-registration-nativescript-angular-mobile-app/
+
 @Component({
     moduleId: module.id,
     selector: "ns-login",

@@ -16,14 +16,14 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
     let account = JSON.parse(ApplicationSettings.getString("account", "{}"));
     if (account && account.email) {
-      account.progress = {
+      account = {
         subjects: [
           {
             id: 1,
             title: 'Trigonometria',
             url: '/subjects/trigonometria',
             image: 'trigonometria.png',
-            completed: 12,
+            completed: 1,
             total: 16
           },
           {
@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
             title: 'Geometria',
             url: '/subjects/geometria',
             image: 'geometria.png',
-            completed: 3,
+            completed: 4,
             total: 10
           },
           {
@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
             title: 'Halmazelmélet',
             url: '/subjects/halmazelmelet',
             image: 'halmazelmelet.png',
-            completed: 0,
+            completed: 10,
             total: 12
           },
           {

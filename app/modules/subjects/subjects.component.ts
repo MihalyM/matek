@@ -11,25 +11,33 @@ export class SubjectsComponent {
       id: 1,
       title: 'Trigonometria',
       url: '/subjects/trigonometria',
-      image: 'trigonometria.png'
+      image: 'trigonometria.png',
+      completed: 8,
+      total: 20
     },
     {
       id: 2,
       title: 'Geometria',
       url: '/subjects/geometria',
-      image: 'geometria.png'
+      image: 'geometria.png',
+      completed: 1,
+      total: 20
     },
     {
       id: 3,
       title: 'Halmazelmélet',
       url: '/subjects/halmazelmelet',
-      image: 'halmazelmelet.png'
+      image: 'halmazelmelet.png',
+      completed: 14,
+      total: 20
     },
     {
       id: 4,
       title: 'Valószínűségszámítás',
       url: '/subjects/valoszinusegszamitas',
-      image: 'valoszinusegszamitas.png'
+      image: 'valoszinusegszamitas.png',
+      completed: 20,
+      total: 20
     }
   ];
 }
