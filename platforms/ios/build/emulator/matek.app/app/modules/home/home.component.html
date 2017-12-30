@@ -2,10 +2,13 @@
 </ActionBar>
 <DockLayout>
   <side-drawer-page>
-    <Label
-      class="h1 page-text"
-      text="Kezdőlap"
-      textWrap="true">
-    </Label>
+    <GridLayout class="home-page p-10">
+      <Label
+        *ngIf="account && account.email"
+        class="h2 page-text"
+        text="Szia {{account.firstname}}!"
+        textWrap="true">
+      </Label>
+    </GridLayout>
   </side-drawer-page>
 </DockLayout>

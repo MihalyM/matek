@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		+iiceti5cdolvwXrOGCk/ewAkiw=
+		A9owI0x74QdLvUvAcf7DDYxHZtA=
 		</data>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
 		<data>
@@ -102,19 +102,19 @@
 		</data>
 		<key>Frameworks/SSSnackbar.framework/Info.plist</key>
 		<data>
-		t2+2Y1kxvqfMCBiCPIfk5jhNNCw=
+		DdsCC3X3ew6PYcXcsXqugkX9J4o=
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar</key>
 		<data>
-		KKolBMZEIHx0XKmETPxSg4ioGtc=
+		ezFQCktbbZJAZdo6BpQd1DDxkPU=
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/Info.plist</key>
 		<data>
-		Zf1laH1bLOmRXJ44BJcKhkG3yUI=
+		dY/Qrsmo9W46Yn3Gl+gzY2O7lE8=
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		/58ugjnwZiJAJ92bcCd6fTgWfn0=
+		Fd8vGQCqbmSkwaPzHuvbZMEDdas=
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		SzVFvvTfXvBQF07mFBT4GBY+HJg=
+		3wT14j07aIUcvFqstMMI7tqKNow=
 		</data>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Frameworks/SSSnackbar.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fzu7XH8mRytrwoqiYtFcR6oRcCY=
+		jyELGxCIQriEgBEfTjmHI8sm8a0=
 		</data>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0lRFbtuOJ/jyvbotYn8KFmuwoow=
+		FarM9AktmJKT19Kc25bXffwtnp4=
 		</data>
 		<key>LaunchImage-568h@2x.png</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		547EGfhyVqtC9nA064ARWZ3GEvc=
+		RlglwuoNmwkNoD9G/AAacBDj2rQ=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		w5zi8K4o7WYqcemZBqcWEChuPow=
+		iRglHiPQOAat506/tBn+TPIsgKo=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -254,7 +254,7 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		Qt2IPzGlHvwmIpwvkW7p1lNeUuE=
+		gqvOED/LzWKBriObDskWRDNsHMw=
 		</data>
 		<key>app/assets/images/temakorok/geometria.png</key>
 		<data>
@@ -310,11 +310,11 @@
 		</data>
 		<key>app/modules/app.component.js</key>
 		<data>
-		F9w8RzIzEcDif8IBkoQ3T+jQmQg=
+		7X+HqVQc8nPn90gHXhRrLSlw7h0=
 		</data>
 		<key>app/modules/app.component.ts</key>
 		<data>
-		o1a/Ov2U53dIdPvC0Eb2kDck7Bk=
+		R5ybIgCNPkzEJr60dTx8nQJSlPE=
 		</data>
 		<key>app/modules/app.module.js</key>
 		<data>
@@ -323,6 +323,14 @@
 		<key>app/modules/app.module.ts</key>
 		<data>
 		hXB+9RbzmSJpWX/byNEG06IU3PA=
+		</data>
+		<key>app/modules/app.service.js</key>
+		<data>
+		o2hMZrt09w/imBeV3LliChDbsPc=
+		</data>
+		<key>app/modules/app.service.ts</key>
+		<data>
+		bFho4v/qm99j/L6QOH8Shuo3Ud0=
 		</data>
 		<key>app/modules/contact/contact.component.html</key>
 		<data>
@@ -336,17 +344,21 @@
 		<data>
 		O13dcK9KrNRBKEjELzYD5ehBFfw=
 		</data>
+		<key>app/modules/home/home.component.css</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
 		<key>app/modules/home/home.component.html</key>
 		<data>
-		m5W1LxeQnc7ZwZO7GlED+QM4++Q=
+		6g9MprVrmtvHX5MyTtAzwTmhoFE=
 		</data>
 		<key>app/modules/home/home.component.js</key>
 		<data>
-		Ws5A5lPpkC8uW411TzcwOZCHvLg=
+		CAuKssC463aV/kLJTO0Bb7Ovu10=
 		</data>
 		<key>app/modules/home/home.component.ts</key>
 		<data>
-		z+S8uCXMnATxabDXyl84dfmRNvM=
+		DqKRgHkBBkgsO0SxsmScjmaXNrc=
 		</data>
 		<key>app/modules/login/login.component.html</key>
 		<data>
@@ -354,11 +366,11 @@
 		</data>
 		<key>app/modules/login/login.component.js</key>
 		<data>
-		f2wzrK+gb5uSPMYtZQsYmuO3dg8=
+		cq9wjmbfZPauHz8hrDbDfI+fUYk=
 		</data>
 		<key>app/modules/login/login.component.ts</key>
 		<data>
-		6ztfqfroS5xnMwSJUm/P0xp16xA=
+		9dvwEuymtEYkjo68qsx+PiXi1mg=
 		</data>
 		<key>app/modules/register/register.component.html</key>
 		<data>
@@ -442,19 +454,19 @@
 		</data>
 		<key>app/modules/subjects/subjects.component.html</key>
 		<data>
-		VBIEJxX23PyVXEoPYKLfMsqpObM=
+		CZRJ7L1r6r+8wHzo6zL8MECaZOk=
 		</data>
 		<key>app/modules/subjects/subjects.component.js</key>
 		<data>
-		7bP21QUfaSDy1A8cjClpvLYKoi4=
+		eGC8OPUJ5e3ax5s9oKTFPTs6nCQ=
 		</data>
 		<key>app/modules/subjects/subjects.component.ts</key>
 		<data>
-		cTtFYQV0GdL/KNwYdLR6CqbIgnw=
+		BvwDLjpsmXFS+w5mceS+KTtPjzY=
 		</data>
 		<key>app/modules/subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component.html</key>
 		<data>
-		ojwA0em9zX/HUuIJDahRaDRM08I=
+		q2ZT+qN/awZXArPuENL82X9Tr9U=
 		</data>
 		<key>app/modules/subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component.js</key>
 		<data>
@@ -466,7 +478,7 @@
 		</data>
 		<key>app/modules/subjects/trigonometria/trigonometria.component.html</key>
 		<data>
-		8M1HNVkm2Tu0p/ML0aW2k8jGX4A=
+		AIFTwWCULpcfEYOzMpLBZp+JYhY=
 		</data>
 		<key>app/modules/subjects/trigonometria/trigonometria.component.js</key>
 		<data>
@@ -11816,11 +11828,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+iiceti5cdolvwXrOGCk/ewAkiw=
+			A9owI0x74QdLvUvAcf7DDYxHZtA=
 			</data>
 			<key>hash2</key>
 			<data>
-			dStdvQxKDJ0CCzDYuWUz2XhEzFl9u72oB/MQBUv1HLs=
+			k0bUSYYkhBSKJkfMX8rz3hdIl2kyfQ9MOPDTr3TPobg=
 			</data>
 		</dict>
 		<key>Frameworks/NativeScript.framework/Info.plist</key>
@@ -11860,44 +11872,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t2+2Y1kxvqfMCBiCPIfk5jhNNCw=
+			DdsCC3X3ew6PYcXcsXqugkX9J4o=
 			</data>
 			<key>hash2</key>
 			<data>
-			PUzBZKAgEGOknBxn5wl8PJIWuDmDdQwOgL+Df6Xgf9A=
+			OYfgG0vSWY5zJzJUxUSx8cl4IA1X+NKyCJuma9h+K7I=
 			</data>
 		</dict>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KKolBMZEIHx0XKmETPxSg4ioGtc=
+			ezFQCktbbZJAZdo6BpQd1DDxkPU=
 			</data>
 			<key>hash2</key>
 			<data>
-			fndPjX3kf6BO41eZIwQSGBJPGpkJS1XL5oV5UKfzhIg=
+			YEJxYpumnwb0xoTW1XEErqXVE3m6TVB02D0PsagGdFc=
 			</data>
 		</dict>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Zf1laH1bLOmRXJ44BJcKhkG3yUI=
+			dY/Qrsmo9W46Yn3Gl+gzY2O7lE8=
 			</data>
 			<key>hash2</key>
 			<data>
-			ijQCGn/qq+kN1NmBreRUh9QpYVObGHmZ/wJ0Umw7gvk=
+			o/RaT4oGHLO2vrWTkJSFfGLk13Wwyd4I9wViUidXSFU=
 			</data>
 		</dict>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/58ugjnwZiJAJ92bcCd6fTgWfn0=
+			Fd8vGQCqbmSkwaPzHuvbZMEDdas=
 			</data>
 			<key>hash2</key>
 			<data>
-			K9fkvSbLXf+P+7OU2k5c5fYUXhR9noMFFB+cbtl6bv0=
+			4nV+AqOiqYqtsXfqv7UBwsxpx9eFxbmYCNkQ7S+1+UE=
 			</data>
 		</dict>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeRequirements</key>
@@ -11915,11 +11927,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SzVFvvTfXvBQF07mFBT4GBY+HJg=
+			3wT14j07aIUcvFqstMMI7tqKNow=
 			</data>
 			<key>hash2</key>
 			<data>
-			EEVcxW7dCWGSqGMSLUiaWnSo6qPQbTDygph6cOvEN8A=
+			udR1BEjO5dBikG9Gt8tE+21XYUziG8drePzSRE3cuNk=
 			</data>
 		</dict>
 		<key>Frameworks/SSSnackbar.framework/SSSnackbar.bundle/_CodeSignature/CodeResources</key>
@@ -11948,11 +11960,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fzu7XH8mRytrwoqiYtFcR6oRcCY=
+			jyELGxCIQriEgBEfTjmHI8sm8a0=
 			</data>
 			<key>hash2</key>
 			<data>
-			5xUKVzUzK3JybXFkGilV6hNNruim0kzPJNBzTU48Rao=
+			lhgwFH28DY8s5NnL/s3Y+SYGugwxN0g5LdSnKZEKbbY=
 			</data>
 		</dict>
 		<key>Frameworks/TNSWidgets.framework/Info.plist</key>
@@ -12201,11 +12213,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			547EGfhyVqtC9nA064ARWZ3GEvc=
+			RlglwuoNmwkNoD9G/AAacBDj2rQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			P576rju0zP2er48Uug/WVM3EUlSDIGFlxDMSjqdp8m4=
+			yyEQK7MzGC/KYQ/wr1wRlJuPBloTEEh8H5r+gRYG1aI=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -12223,11 +12235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w5zi8K4o7WYqcemZBqcWEChuPow=
+			iRglHiPQOAat506/tBn+TPIsgKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			5U+i9soNYTZ0qAdJdApzJDpONV0ERjvQ+qPN9QZyF0g=
+			JPk9ctGKno0OSzHNW9/CpjMOsjEslmJ2AwBZVNjqdO4=
 			</data>
 		</dict>
 		<key>app/LICENSE</key>
@@ -12256,11 +12268,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qt2IPzGlHvwmIpwvkW7p1lNeUuE=
+			gqvOED/LzWKBriObDskWRDNsHMw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Fdmq4Pz7D2kXKKqvOM0ndfzQ6qWRtIpTIlzU1p345SQ=
+			moNO8eNhwJAAUCM8GuJw8NbvIkBiIiKVZMrc+LhrNrI=
 			</data>
 		</dict>
 		<key>app/assets/images/temakorok/geometria.png</key>
@@ -12410,22 +12422,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F9w8RzIzEcDif8IBkoQ3T+jQmQg=
+			7X+HqVQc8nPn90gHXhRrLSlw7h0=
 			</data>
 			<key>hash2</key>
 			<data>
-			khbEx4jp4pf7b7YGfq03Eo0CJXlAMj2AlYN9smY92WY=
+			2HShWQw9dO1mq3Rc90R/Ib6C34CCvtpbFFr/qrixSj4=
 			</data>
 		</dict>
 		<key>app/modules/app.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			o1a/Ov2U53dIdPvC0Eb2kDck7Bk=
+			R5ybIgCNPkzEJr60dTx8nQJSlPE=
 			</data>
 			<key>hash2</key>
 			<data>
-			KhIQOuw1q67Iu2SEXoLeRuOTNfC1ju1m0KsOxxny2fU=
+			iHH5ORurtdWLYbX92JGAXXPdnnsWUdRHRp3YxE6XDA4=
 			</data>
 		</dict>
 		<key>app/modules/app.module.js</key>
@@ -12448,6 +12460,28 @@
 			<key>hash2</key>
 			<data>
 			ULMV6DpGgGfGQSkcokmI8hc6Xg5msLMnNaaWKMHubLg=
+			</data>
+		</dict>
+		<key>app/modules/app.service.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o2hMZrt09w/imBeV3LliChDbsPc=
+			</data>
+			<key>hash2</key>
+			<data>
+			t5nG6APshB1+kV38x48p2U+0EH+hOgtXATtz4bCwJW8=
+			</data>
+		</dict>
+		<key>app/modules/app.service.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bFho4v/qm99j/L6QOH8Shuo3Ud0=
+			</data>
+			<key>hash2</key>
+			<data>
+			uT58RMQP4BFdM3FdOokzHgzck3y0nUv9IdUj+q3TdwA=
 			</data>
 		</dict>
 		<key>app/modules/contact/contact.component.html</key>
@@ -12483,37 +12517,48 @@
 			Ia8Cr7RyNaSzUbuWYORymS9RLWJWJ2GCw/goBqZyVhk=
 			</data>
 		</dict>
+		<key>app/modules/home/home.component.css</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>app/modules/home/home.component.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			m5W1LxeQnc7ZwZO7GlED+QM4++Q=
+			6g9MprVrmtvHX5MyTtAzwTmhoFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			evXY7/OiRixI3oVHdQhNPDqqSEaoHCFCmTurr+sKMDI=
+			GPbHtUN6a/2gIQ1sY9fgnXCg5lrsbp0i1nzwHMo8B0E=
 			</data>
 		</dict>
 		<key>app/modules/home/home.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Ws5A5lPpkC8uW411TzcwOZCHvLg=
+			CAuKssC463aV/kLJTO0Bb7Ovu10=
 			</data>
 			<key>hash2</key>
 			<data>
-			CxZtiqkIBPwBhaPu/MM6Q1MzL5xBIUiEuKlU0F+mE88=
+			VAcRhXBc3vYijAh84DrrOpojuFtoEQ/EmiUNnUcGf9o=
 			</data>
 		</dict>
 		<key>app/modules/home/home.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z+S8uCXMnATxabDXyl84dfmRNvM=
+			DqKRgHkBBkgsO0SxsmScjmaXNrc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4LqDIU3jFUvI0QE8wbE1izjJk2eYshnHr1ch3X/lW5U=
+			GVepTltv0Kyp8jB6XG+3MynhUNGs6rRRYTunXIIWR8U=
 			</data>
 		</dict>
 		<key>app/modules/login/login.component.html</key>
@@ -12531,22 +12576,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f2wzrK+gb5uSPMYtZQsYmuO3dg8=
+			cq9wjmbfZPauHz8hrDbDfI+fUYk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qul4qG2yS+fYxl7D3x1x3ME+hlvkRQ3c1PTUCN0CuLs=
+			wAWHd+SatwUuuA6V72CCkYpdZ7U91hN2Rw3rgG3haQQ=
 			</data>
 		</dict>
 		<key>app/modules/login/login.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6ztfqfroS5xnMwSJUm/P0xp16xA=
+			9dvwEuymtEYkjo68qsx+PiXi1mg=
 			</data>
 			<key>hash2</key>
 			<data>
-			E6mtO8BB8kNCrJGnSAeywrr8pLZ+Vn2Lf8NWuDaLyds=
+			IRlYjcbqvnc8bTQ9t+2q5Qxkx802q/+RjihzrwrL/CA=
 			</data>
 		</dict>
 		<key>app/modules/register/register.component.html</key>
@@ -12773,44 +12818,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VBIEJxX23PyVXEoPYKLfMsqpObM=
+			CZRJ7L1r6r+8wHzo6zL8MECaZOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sQ3AFD9Tv2mYx/xmC9FRMfaSPUwYSVxEudB3xvpsUUc=
+			y6ltJbUUdrylPBaF8b2iK2fRhIXnnfKBequez2W6a54=
 			</data>
 		</dict>
 		<key>app/modules/subjects/subjects.component.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7bP21QUfaSDy1A8cjClpvLYKoi4=
+			eGC8OPUJ5e3ax5s9oKTFPTs6nCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			h5g/aMdF5GxzfWvdgIkTD7XUMnsgiFe1JnU0um9+dBA=
+			igJvFwYEX/LJ+54sAx43C8l6q00not4WQDWJdYEgtxs=
 			</data>
 		</dict>
 		<key>app/modules/subjects/subjects.component.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cTtFYQV0GdL/KNwYdLR6CqbIgnw=
+			BvwDLjpsmXFS+w5mceS+KTtPjzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			VEfnVpbfm5N3UGnznEWc9qqLodLbKobliKOxnLlOqsc=
+			SjeWZ3n465i0Ol1KyW5L8d+P2SevMDz2RChzPYsNSPI=
 			</data>
 		</dict>
 		<key>app/modules/subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component.html</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ojwA0em9zX/HUuIJDahRaDRM08I=
+			q2ZT+qN/awZXArPuENL82X9Tr9U=
 			</data>
 			<key>hash2</key>
 			<data>
-			eTwnzkCIP8spjafV5bemPAk8rFudQgnVRWwyRcE+Tfw=
+			tSseG4e9wbjYMynVI8K9ERnIa4273t7Om7YZlkMFykU=
 			</data>
 		</dict>
 		<key>app/modules/subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component.js</key>
@@ -12839,11 +12884,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8M1HNVkm2Tu0p/ML0aW2k8jGX4A=
+			AIFTwWCULpcfEYOzMpLBZp+JYhY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qUWjngqq3tX0UDgNigW+RWKB3Cbtk2V3Mn0WVSvdm2I=
+			/pcwaksZLG/A3k/uWOPPAfkh89EmgcGCpcgnGvbdzQE=
 			</data>
 		</dict>
 		<key>app/modules/subjects/trigonometria/trigonometria.component.js</key>

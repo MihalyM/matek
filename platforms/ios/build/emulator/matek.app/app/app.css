@@ -28,3 +28,19 @@ refer to http://docs.nativescript.org/ui/theme.
   margin: 0 20px 0 0;
   width: 100px;
 }
+
+.c-progress {
+  font-style: italic;
+}
+
+.c-progress.complete-low {
+  color: #f32;
+}
+
+.c-progress.complete-mid {
+  color: #f93;
+}
+
+.c-progress.complete-full {
+  color: #3a3;
+}
