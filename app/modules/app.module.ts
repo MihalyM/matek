@@ -11,8 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from "./register/register.component";
 import { ContactComponent } from './contact/contact.component';
 import { SubjectsComponent } from './subjects/subjects.component';
-import { TrigonometriaComponent } from './subjects/trigonometria/trigonometria.component';
-import { PitagoraszTetelComponent } from './subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component';
+import { AlgebraiKifejezesekComponent } from './subjects/algebrai-kifejezesek/algebrai-kifejezesek.component';
 import { SharedModule } from './shared';
 
 @NgModule({
@@ -30,8 +29,7 @@ import { SharedModule } from './shared';
     RegisterComponent,
     ContactComponent,
     SubjectsComponent,
-    TrigonometriaComponent,
-    PitagoraszTetelComponent
+    AlgebraiKifejezesekComponent
   ],
   bootstrap: [AppComponent]
 })

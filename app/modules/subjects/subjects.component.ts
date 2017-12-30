@@ -9,34 +9,18 @@ export class SubjectsComponent {
   subjects: Array<any> = [
     {
       id: 1,
-      title: 'Trigonometria',
-      url: '/subjects/trigonometria',
-      image: 'trigonometria.png',
-      completed: 8,
-      total: 20
-    },
-    {
-      id: 2,
-      title: 'Geometria',
-      url: '/subjects/geometria',
-      image: 'geometria.png',
+      title: 'Szamolasi keszseg',
+      url: '/subjects/szamolasi-keszseg',
+      image: 'szamolasi-keszseg.png',
       completed: 1,
       total: 20
     },
     {
-      id: 3,
-      title: 'Halmazelmélet',
-      url: '/subjects/halmazelmelet',
-      image: 'halmazelmelet.png',
-      completed: 14,
-      total: 20
-    },
-    {
-      id: 4,
-      title: 'Valószínűségszámítás',
-      url: '/subjects/valoszinusegszamitas',
-      image: 'valoszinusegszamitas.png',
-      completed: 20,
+      id: 10,
+      title: 'Algebrai kifejezesek',
+      url: '/subjects/algebrai-kifejezesek',
+      image: 'trigonometria.png',
+      completed: 8,
       total: 20
     }
   ];

@@ -8,8 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { SubjectsComponent } from './subjects/subjects.component';
-import { TrigonometriaComponent } from './subjects/trigonometria/trigonometria.component';
-import { PitagoraszTetelComponent } from './subjects/trigonometria/pitagorasz-tetel/pitagorasz-tetel.component';
+import { AlgebraiKifejezesekComponent } from './subjects/algebrai-kifejezesek/algebrai-kifejezesek.component';
 import { CanActivateViaAuthGuard } from './shared/guards';
 
 @NgModule({
@@ -41,8 +40,8 @@ import { CanActivateViaAuthGuard } from './shared/guards';
         canActivate: [CanActivateViaAuthGuard],
         canActivateChild: [CanActivateViaAuthGuard]
       },
-      { path: 'subjects/trigonometria', component: TrigonometriaComponent },
-      { path: 'subjects/trigonometria/pitagorasz-tetel', component: PitagoraszTetelComponent }
+      { path: 'subjects/algebrai-kifejezesek', component: AlgebraiKifejezesekComponent },
+      { path: 'subjects/algebrai-kifejezesek/', component: AlgebraiKifejezesekComponent }
     ])
   ],
   providers: [CanActivateViaAuthGuard],
