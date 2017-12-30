@@ -9,6 +9,7 @@
     "@angular/router": true,
     "nativescript-angular": true,
     "nativescript-localstorage": true,
+    "nativescript-pro-ui": true,
     "nativescript-snackbar": true,
     "nativescript-telerik-ui": true,
     "nativescript-theme-core": true,
