@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
 
     public ngOnInit() {
         if(ApplicationSettings.getBoolean("authenticated", false)) {
-            this.router.navigate(["/subjects"], { clearHistory: true });
+            this.router.navigate(["/temakorok"], { clearHistory: true });
         }
     }
 
@@ -31,7 +31,7 @@ export class LoginComponent implements OnInit {
             let account = JSON.parse(ApplicationSettings.getString("account", "{}"));
             if(this.input.email == account.email && this.input.password == account.password) {
                 ApplicationSettings.setBoolean("authenticated", true);
-                this.router.navigate(["/subjects"], { clearHistory: true });
+                this.router.navigate(["/temakorok"], { clearHistory: true });
             } else {
                 (new SnackBar()).simple("Incorrect Credentials!");
             }

@@ -1,0 +1,34 @@
+<ActionBar title="Számhalmazok és műveletek, hatványozás">
+</ActionBar>
+
+<side-drawer-page>
+  <GridLayout class="p-10">
+    <Label
+      class="h1 page-text"
+      text="Számhalmazok és műveletek, hatványozás"
+      textWrap="true">
+    </Label>
+    <ListView [items]="list">
+      <ng-template
+        let-item="item"
+        let-i="index"
+        let-odd="odd"
+        let-even="even">
+        <StackLayout
+          class="list-item"
+          [class.odd]="odd"
+          [class.even]="even"
+          [nsRouterLink]="[item.url]"
+          orientation="horizontal">
+          <Image
+            class="list-thumb"
+            decodeWidth="100"
+            decodeHeight="100"
+            loadMode="async"
+            [src]="'~/assets/images/temakorok/trigonomszamhalmazok-hatvanyozasetria/' + item.image"></Image>
+          <Label [text]="item.title"></Label>
+        </StackLayout>
+      </ng-template>
+    </ListView>
+  </GridLayout>
+</side-drawer-page>
