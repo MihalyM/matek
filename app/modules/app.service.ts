@@ -45,26 +45,19 @@ export class AppService {
       url: '/temakorok/mertekvaltas',
       image: 'mertekvaltas.png',
       completed: 0,
-      total: 20,
+      total: 15,
       temak: [
         {
           id: 201,
-          title: 'a',
-          url: '/temakorok/mertekvaltas',
+          title: 'Hosszúság, terület és térfogat mérése, űrmérték',
+          url: '/temakorok/mertekvaltas/hossz-terulet-terfogat-ur',
           completed: 0,
           total: 10,
         },
         {
           id: 202,
-          title: 'b',
-          url: '/temakorok/mertekvaltas',
-          completed: 0,
-          total: 5,
-        },
-        {
-          id: 203,
-          title: 'c',
-          url: '/temakorok/mertekvaltas',
+          title: 'Idő, tömeg, egyéb átváltások',
+          url: '/temakorok/mertekvaltas/ido-tomeg-egyeb',
           completed: 0,
           total: 5,
         }
