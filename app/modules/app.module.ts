@@ -45,6 +45,12 @@ import { LegnagyobbLegkisebbComponent } from './temakorok/szamelmelet-oszthatosa
 import { TajekozodasKoordinatarendszerbenComponent } from './temakorok/koordinata-linearis-fuggvenyek/tajekozodas-koordinatarendszerben/tajekozodas-koordinatarendszerben.component';
 import { LinearisFuggvenyekComponent } from './temakorok/koordinata-linearis-fuggvenyek/linearis-fuggvenyek/linearis-fuggvenyek.component';
 
+import { AlgebraiKifejezesekComponent } from './temakorok/algebrai-kifejezesek/algebrai-kifejezesek/algebrai-kifejezesek.component';
+import { MuveletekAlgebraiKifejezesekelkComponent } from './temakorok/algebrai-kifejezesek/muveletek-algebrai-kifejezesekkel/muveletek-algebrai-kifejezesekkel.component';
+
+import { ElsofokuEgyenletekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenletek/elsofoku-egyenletek.component';
+import { ElsofokuEgyenlotlensegekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek/elsofoku-egyenlotlensegek.component';
+
 import { SharedModule } from './shared';
 
 @NgModule({
@@ -94,6 +100,12 @@ import { SharedModule } from './shared';
 
     TajekozodasKoordinatarendszerbenComponent,
     LinearisFuggvenyekComponent,
+
+    AlgebraiKifejezesekComponent,
+    MuveletekAlgebraiKifejezesekelkComponent,
+
+    ElsofokuEgyenletekComponent,
+    ElsofokuEgyenlotlensegekComponent,
   ],
   providers: [AppService],
   bootstrap: [AppComponent]

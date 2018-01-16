@@ -42,10 +42,12 @@ import { LegnagyobbLegkisebbComponent } from './temakorok/szamelmelet-oszthatosa
 
 import { TajekozodasKoordinatarendszerbenComponent } from './temakorok/koordinata-linearis-fuggvenyek/tajekozodas-koordinatarendszerben/tajekozodas-koordinatarendszerben.component';
 import { LinearisFuggvenyekComponent } from './temakorok/koordinata-linearis-fuggvenyek/linearis-fuggvenyek/linearis-fuggvenyek.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
+
+import { AlgebraiKifejezesekComponent } from './temakorok/algebrai-kifejezesek/algebrai-kifejezesek/algebrai-kifejezesek.component';
+import { MuveletekAlgebraiKifejezesekelkComponent } from './temakorok/algebrai-kifejezesek/muveletek-algebrai-kifejezesekkel/muveletek-algebrai-kifejezesekkel.component';
+
+import { ElsofokuEgyenletekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenletek/elsofoku-egyenletek.component';
+import { ElsofokuEgyenlotlensegekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek/elsofoku-egyenlotlensegek.component';
 // import {  } from './temakorok/.component';
 // import {  } from './temakorok/.component';
 // import {  } from './temakorok/.component';
@@ -127,10 +129,12 @@ import { CanActivateViaAuthGuard } from './shared/guards';
 
       { path: 'temakorok/koordinata-linearis-fuggvenyek/tajekozodas-koordinatarendszerben', component: TajekozodasKoordinatarendszerbenComponent },
       { path: 'temakorok/koordinata-linearis-fuggvenyek/linearis-fuggvenyek', component: LinearisFuggvenyekComponent },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
+
+      { path: 'temakorok/algebrai-kifejezesek/algebrai-kifejezesek', component: AlgebraiKifejezesekComponent },
+      { path: 'temakorok/algebrai-kifejezesek/muveletek-algebrai-kifejezesekkel', component: MuveletekAlgebraiKifejezesekelkComponent },
+
+      { path: 'temakorok/elsofoku-egyenletek/elsofoku-egyenletek', component: ElsofokuEgyenletekComponent },
+      { path: 'temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek', component: ElsofokuEgyenlotlensegekComponent },
       // { path: 'temakorok/', component: Component },
       // { path: 'temakorok/', component: Component },
       // { path: 'temakorok/', component: Component },
