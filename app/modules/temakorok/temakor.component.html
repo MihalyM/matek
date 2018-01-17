@@ -1,0 +1,36 @@
+<ActionBar title="{{ temakor.title }}">
+</ActionBar>
+
+<side-drawer-page>
+  <GridLayout class="p-10">
+    <Label
+      class="h1 page-text"
+      text="{{ temakor.title }}"
+      textWrap="true">
+    </Label>
+    <ListView [items]="temakor.temak">
+      <ng-template
+        let-item="item"
+        let-i="index"
+        let-odd="odd"
+        let-even="even">
+        <WrapLayout
+          class="list-item"
+          [class.odd]="odd"
+          [class.even]="even"
+          [nsRouterLink]="[item.url]"
+          orientation="vertical">
+          <Label textWrap="true" [text]="item.title"></Label>
+          <Label
+            class="c-progress m-l-10"
+            [text]="item.completed + '/' + item.total"
+            [ngClass]="{
+              'complete-low': item.completed / item.total < 0.5,
+              'complete-mid': item.completed / item.total > 0.5 && item.completed / item.total < 1,
+              'complete-full': item.completed / item.total === 1
+            }"></Label>
+        </WrapLayout>
+      </ng-template>
+    </ListView>
+  </GridLayout>
+</side-drawer-page>

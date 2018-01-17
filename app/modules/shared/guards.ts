@@ -9,10 +9,11 @@ export class CanActivateViaAuthGuard implements CanActivate {
   ) {}
 
   canActivate() {
-    if (ApplicationSettings.getBoolean("authenticated", true)) {
-      return true;
-    } else {
-      return false;
-    }
+    return true;
+    // if (ApplicationSettings.getBoolean("authenticated", true)) {
+    //   return true;
+    // } else {
+    //   return false;
+    // }
   }
 }

@@ -17,40 +17,7 @@ export class HomeComponent implements OnInit {
     let account = JSON.parse(ApplicationSettings.getString("account", "{}"));
     if (account && account.email) {
       account = {
-        subjects: [
-          {
-            id: 1,
-            title: 'Trigonometria',
-            url: '/subjects/trigonometria',
-            image: 'trigonometria.png',
-            completed: 1,
-            total: 16
-          },
-          {
-            id: 2,
-            title: 'Geometria',
-            url: '/subjects/geometria',
-            image: 'geometria.png',
-            completed: 4,
-            total: 10
-          },
-          {
-            id: 3,
-            title: 'Halmazelmélet',
-            url: '/subjects/halmazelmelet',
-            image: 'halmazelmelet.png',
-            completed: 10,
-            total: 12
-          },
-          {
-            id: 4,
-            title: 'Valószínűségszámítás',
-            url: '/subjects/valoszinusegszamitas',
-            image: 'valoszinusegszamitas.png',
-            completed: 20,
-            total: 20
-          }
-        ]
+        temakorok: []
       };
       // ApplicationSettings.setString("account", JSON.stringify(this.account));
       this.account = account;
