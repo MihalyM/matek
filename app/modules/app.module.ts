@@ -51,6 +51,21 @@ import { MuveletekAlgebraiKifejezesekelkComponent } from './temakorok/algebrai-k
 import { ElsofokuEgyenletekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenletek/elsofoku-egyenletek.component';
 import { ElsofokuEgyenlotlensegekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek/elsofoku-egyenlotlensegek.component';
 
+import { SzovegesAltalanosComponent } from './temakorok/szoveges-feladatok/szoveges-altalanos/szoveges-altalanos.component';
+import { SzovegesVegyesComponent } from './temakorok/szoveges-feladatok/szoveges-vegyes/szoveges-vegyes.component';
+
+import { SikgeometriaAlapfogalmakComponent } from './temakorok/sikgeometria/sikgeometria-alapfogalmak/sikgeometria-alapfogalmak.component';
+import { SikgeometriaHaromszogekComponent } from './temakorok/sikgeometria/sikgeometria-haromszogek/sikgeometria-haromszogek.component';
+import { SikgeometriaSokszogekComponent } from './temakorok/sikgeometria/sikgeometria-sokszogek/sikgeometria-sokszogek.component';
+import { SikgeometriaEgybevagosagComponent } from './temakorok/sikgeometria/sikgeometria-egybevagosag/sikgeometria-egybevagosag.component';
+
+import { KeruletComponent } from './temakorok/kerulet-terulet-pitagorasz/kerulet/kerulet.component';
+import { TeruletComponent } from './temakorok/kerulet-terulet-pitagorasz/terulet/terulet.component';
+
+import { FelszinTerfogatAlapfogalmakComponent } from './temakorok/felszin-terfogat/felszin-terfogat-alapfogalmak/felszin-terfogat-alapfogalmak.component';
+import { TestekFelszineComponent } from './temakorok/felszin-terfogat/testek-felszine/testek-felszine.component';
+import { TestekTerfogataComponent } from './temakorok/felszin-terfogat/testek-terfogata/testek-terfogata.component';
+
 import { SharedModule } from './shared';
 
 @NgModule({
@@ -106,6 +121,21 @@ import { SharedModule } from './shared';
 
     ElsofokuEgyenletekComponent,
     ElsofokuEgyenlotlensegekComponent,
+
+    SzovegesAltalanosComponent,
+    SzovegesVegyesComponent,
+
+    SikgeometriaAlapfogalmakComponent,
+    SikgeometriaHaromszogekComponent,
+    SikgeometriaSokszogekComponent,
+    SikgeometriaEgybevagosagComponent,
+
+    KeruletComponent,
+    TeruletComponent,
+
+    FelszinTerfogatAlapfogalmakComponent,
+    TestekFelszineComponent,
+    TestekTerfogataComponent
   ],
   providers: [AppService],
   bootstrap: [AppComponent]

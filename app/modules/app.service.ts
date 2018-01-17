@@ -349,7 +349,7 @@ export class AppService {
         {
           id: 1303,
           title: 'Négyszögek, sokszögek, kör',
-          url: '/temakorok/sikgeometria/sikgeometria-sokszog',
+          url: '/temakorok/sikgeometria/sikgeometria-sokszogek',
           completed: 0,
           total: 5,
         },

@@ -48,22 +48,21 @@ import { MuveletekAlgebraiKifejezesekelkComponent } from './temakorok/algebrai-k
 
 import { ElsofokuEgyenletekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenletek/elsofoku-egyenletek.component';
 import { ElsofokuEgyenlotlensegekComponent } from './temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek/elsofoku-egyenlotlensegek.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
-// import {  } from './temakorok/.component';
+
+import { SzovegesAltalanosComponent } from './temakorok/szoveges-feladatok/szoveges-altalanos/szoveges-altalanos.component';
+import { SzovegesVegyesComponent } from './temakorok/szoveges-feladatok/szoveges-vegyes/szoveges-vegyes.component';
+
+import { SikgeometriaAlapfogalmakComponent } from './temakorok/sikgeometria/sikgeometria-alapfogalmak/sikgeometria-alapfogalmak.component';
+import { SikgeometriaHaromszogekComponent } from './temakorok/sikgeometria/sikgeometria-haromszogek/sikgeometria-haromszogek.component';
+import { SikgeometriaSokszogekComponent } from './temakorok/sikgeometria/sikgeometria-sokszogek/sikgeometria-sokszogek.component';
+import { SikgeometriaEgybevagosagComponent } from './temakorok/sikgeometria/sikgeometria-egybevagosag/sikgeometria-egybevagosag.component';
+
+import { KeruletComponent } from './temakorok/kerulet-terulet-pitagorasz/kerulet/kerulet.component';
+import { TeruletComponent } from './temakorok/kerulet-terulet-pitagorasz/terulet/terulet.component';
+
+import { FelszinTerfogatAlapfogalmakComponent } from './temakorok/felszin-terfogat/felszin-terfogat-alapfogalmak/felszin-terfogat-alapfogalmak.component';
+import { TestekFelszineComponent } from './temakorok/felszin-terfogat/testek-felszine/testek-felszine.component';
+import { TestekTerfogataComponent } from './temakorok/felszin-terfogat/testek-terfogata/testek-terfogata.component';
 
 import { CanActivateViaAuthGuard } from './shared/guards';
 
@@ -135,23 +134,21 @@ import { CanActivateViaAuthGuard } from './shared/guards';
 
       { path: 'temakorok/elsofoku-egyenletek/elsofoku-egyenletek', component: ElsofokuEgyenletekComponent },
       { path: 'temakorok/elsofoku-egyenletek/elsofoku-egyenlotlensegek', component: ElsofokuEgyenlotlensegekComponent },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
-      // { path: 'temakorok/', component: Component },
+
+      { path: 'temakorok/szoveges-feladatok/szoveges-altalanos', component: SzovegesAltalanosComponent },
+      { path: 'temakorok/szoveges-feladatok/szoveges-vegyes', component: SzovegesVegyesComponent },
+
+      { path: 'temakorok/sikgeometria/sikgeometria-alapfogalmak', component: SikgeometriaAlapfogalmakComponent },
+      { path: 'temakorok/sikgeometria/sikgeometria-haromszogek', component: SikgeometriaHaromszogekComponent },
+      { path: 'temakorok/sikgeometria/sikgeometria-sokszogek', component: SikgeometriaSokszogekComponent },
+      { path: 'temakorok/sikgeometria/sikgeometria-egybevagosag', component: SikgeometriaEgybevagosagComponent },
+
+      { path: 'temakorok/kerulet-terulet-pitagorasz/kerulet', component: KeruletComponent },
+      { path: 'temakorok/kerulet-terulet-pitagorasz/terulet', component: TeruletComponent },
+
+      { path: 'temakorok/felszin-terfogat/felszin-terfogat-alapfogalmak', component: FelszinTerfogatAlapfogalmakComponent },
+      { path: 'temakorok/felszin-terfogat/testek-felszine', component: TestekFelszineComponent },
+      { path: 'temakorok/felszin-terfogat/testek-terfogata', component: TestekTerfogataComponent }
     ])
   ],
   providers: [CanActivateViaAuthGuard],
